@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Poradci Chocen</title>
+  <title>Synergy FG – Moderní finanční poradenství</title>
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <style>
@@ -146,6 +146,9 @@
       border: none;
       cursor: pointer;
       padding: 0;
+      top: 100%;
+      margin-top: 0; /* Eliminate any extra space */
+      
       /* margin-left: 20px; /* ODSTRÁNENÉ - toto mohlo spôsobovať posun mimo obrazovku */
     }
 
@@ -784,8 +787,8 @@
         display: none; /* Skryje desktopovú navigáciu */
         flex-direction: column;
         background: rgba(30, 58, 138, 0.98);
-        position: absolute;
-        top: 100px; /* VÝŠKA HLAVIČKY - zodpovedá body padding-top */
+        position:absolute;
+        top: 59px; /* VÝŠKA HLAVIČKY - zodpovedá body padding-top */
         left: 0;
         width: 100%; /* Menu cez celú šírku */
         border-radius: 0; /* Prípadne 0 0 8px 8px ak má byť len pod hlavičkou */
@@ -1061,6 +1064,10 @@
         <h4><i class="fas fa-gavel"></i> Právní pomoc</h4>
         <p>Spolupráce s ověřenými právníky v oblasti financí a realit. Revize smluv, řešení sporů a příprava dokumentace.</p>
       </div>
+      <div class="service-card">
+        <h4><i class="fas fa-house"></i> Realitní makléř</h4>
+        <p>Prodej, nákup nemovitostí. Profesionální prezentace nemovitosti. Kompletní právní a finanční servis. Oceňování nemovitostí, Vyhledání vhodné investiční příležitosti. <a href="https://www.synergy-home.cz/"> Synergy, Home, s.r.o.</a></p>
+      </div>
     </div>
   </section>
 
@@ -1113,6 +1120,25 @@
           Služby <a href="https://www.pourazu.cz/" target="_blank">pourazu.cz</a> jsou tu proto, abychom lidem pomáhali komplexně. Vybrali pojištění na míru a pohlídali řádné vyplacení pojistky. V případě potřeby našli nejvhodnějšího lékaře, provedli vhodná vyšetření a nastavili efektivní léčbu. Celkově tak propojili svět pojištění a lékařské péče.<br>
           Naší upřímnou snahou je najít vám bezodkladnou, špičkovou lékařskou péči, která je <strong>klíčová pro rychlejší a bezproblémový návrat</strong> k běžnému životu a sportovním výkonům.<br>
           Pro všechny. Za každé situace!</p>
+        </div>
+      </div>
+      <div class="benefit-divider"></div>
+      <div class="benefit-container">
+        <div class="benefit-header">
+          <img src="./eucs.png" alt="Logo pourazu.cz" class="benefit-logo">
+          <h3 class="benefit-title">Garance EUCS – když chcete jistotu při řešení pojistné události</h3>
+        </div>
+        <div class="benefit-content">
+          Ve spolupráci s EUCS zajistíme profesionální zastoupení při řešení pojistných událostí. Díky týmu zkušených právníků, likvidátorů a lékařů získáte klid, jistotu a maximální možné pojistné plnění – bez zbytečného stresu a zdlouhavého dohadování s pojišťovnou.
+          <br><strong>Co vám služba přináší:</strong><br>
+               •Odborné posouzení pojistné události<br>
+               •Návrh strategie a podpora při uplatnění nároků<br>
+               •Možnost profesionálního zastoupení při jednání s pojišťovnou<br>
+               •Konzultace s odborníky z různých oblastí (právo, medicína, pojistná likvidace)<br>
+               •Úspora času a energie – vše vyřídíme za vás<br><br>
+            <strong>Garance EUCS je ideální pro ty, kdo chtějí mít při řešení pojistných událostí silného partnera na své straně.</strong><br>
+            Chcete vědět víc? Ozvěte se mi – rád vám vysvětlím, jak Garance EUCS funguje a jak vám může pomoci.
+
         </div>
       </div>
     </div>
@@ -1261,15 +1287,26 @@
   </section>
 
   <footer>
-    <div class="footer-content">
-      <img src="./Synergy logo 4.png" alt="Synergy FG" class="footer-logo">
-      <p>Synergy Financial Group – nezávislé finanční poradenství</p>
-      <p>Choceň a okolí</p>
-      <div class="copyright">
-        © 2025 Synergy FG. Všechna práva vyhrazena.
-      </div>
+  <div class="footer-content">
+    <img src="./Synergy logo 4.png" alt="Synergy FG" class="footer-logo">
+    <p>Synergy Financial Group – nezávislé finanční poradenství</p>
+    <p>Choceň a okolí</p>
+    <div class="copyright">
+      © 2025 Synergy FG. Všechna práva vyhrazena.
     </div>
-  </footer>
+    <div class="footer-legal-info" style="text-align: left; margin-top: 30px; font-size: 0.8rem; color: rgba(255, 255, 255, 0.7);">
+      <p>Finanční služby propagované a nabízené na tomto webu poskytuje společnost Synergy-FG s.r.o. a zde uvedení poradci jako fyzické a právnické osoby, kteří jsou v oblasti:</p>
+      <ul style="list-style-position: inside; padding-left: 0;">
+        <li>pojištění registrovaní podle zákona č. 170/2018 Sb. jako vázaní zástupci samostatného zprostředkovatele pojištění,</li>
+        <li>investic podle zákona č. 256/2004 Sb. jako vázaní zástupci investičního zprostředkovatele,</li>
+        <li>doplňkového penzijního spoření podle zákona č. 427/2011 Sb. jako vázaní zástupci samostatného zprostředkovatele doplňkového penzijního spoření</li>
+        <li>spotřebitelských úvěrů podle zákona č. 257/2016 Sb. jako vázaní zástupci samostatného zprostředkovatele spotřebitelského úvěru,</li>
+      </ul>
+      <p>...<br>společnosti SAB servis s.r.o., IČO: 24704008, se sídlem Praha 1 - Nové Město, Jungmannova 748/30, PSČ 11000. Tuto skutečnost je možné ověřit v Seznamu regulovaných a registrovaných subjektů finančního trhu České národní banky na <a href="https://www.cnb.cz/cnb/jerrs" target="_blank" style="color: var(--accent);">https://www.cnb.cz/cnb/jerrs</a> , kde také najdete aktuální podrobnosti o registraci a jejím rozsahu.</p>
+      <p>Detailní právní informace k nabízeným službám a produktům (včetně reklamačního řádu, možnosti podání stížnosti, řešení sporů,orgánu dohledu, udržitelnosti atd.) najdete na <a href="https://sabservis.cz/informace" target="_blank" style="color: var(--accent);">https://sabservis.cz/informace</a></p>
+    </div>
+  </div>
+</footer>
 
   <script>
     // Skript pre zmenu vzhľadu hlavičky pri skrolovaní
